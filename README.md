@@ -18,11 +18,11 @@ The new AOD can be reprocessed from RAW with minor modifications (global tag, in
 ```
 cmsrel CMSSW_4_2_8
 cd CMSSW_4_2_8/src
-cmsenv
 mkdir WorkDir
 cd WorkDir
 git clone -b 2010 git://github.com/cms-legacydata-validation/RAWToAODValidation.git
 cd RAWToAODValidation
+cmsenv
 
 #According to the dataset
 cd code/Electron
